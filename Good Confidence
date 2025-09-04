@@ -1,0 +1,34 @@
+num of islands (graph dfs)
+two numbers.  (array)
+two numbers sorted array (array)
+My Calendar 1 (interval tree)
+Check Validity of BST (tree)
+Sudoku Solver. (recursive backtracking)
+Number of Provinces (dfs)
+Sliding Window Maximum (sliding window)
+level order traversal (tree)
+reverse stack with recursion(Stack)
+merge k sorted array (using priority queue)
+bulb right flip (greedy approach)
+daily temperature (monotonic stack)
+first non repeating number in stream (queue)
+min stack (Stack) use Single Stack
+implement queue using two stack
+peak in mountain array (using binary search)
+find in mountain array (double binary search)
+wordsearch (dfs backtracking)
+reverse words (String)
+min window substring (sliding window)
+longest-substring-without-repeating-characters(sliding window)
+network delay time : (Dijkistra algortihm)
+Design inmemory file system
+serialize and deserialize n-ary tree
+Snapshot Array :- (use binary search)
+encode and decode string
+Visible people of queue :- (use monotonic stack)
+searilize and deseralize tree :- use preorder traversal
+Longest palindrome substring (dynamic programming and tabulation technique)
+Bottom level order traversal (same as level order traversal but use LinkedList to add at start, which supports addFirst method)
+kth largest element in stream
+meetings room (interval )
+diameter of tree (tree dfs)
