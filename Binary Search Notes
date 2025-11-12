@@ -9,3 +9,9 @@ Lower Bound of 1 = 0 (0 is index)
 Lower Bound of 4 = 8 (8 is index)
 Lower Bound of 10 = 11 (11 is index)
 Lower Bound of 13 = 12 (size of array)
+
+
+
+Floor and Celing on TreeMap in java
+TreeMap map = new TreeMap();
+map.floorKey() and map.ceilingKey()
