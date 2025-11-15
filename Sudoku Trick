@@ -1,0 +1,8 @@
+//How to identify square accurately for index i,j in sudoku without writing boiler plate code
+
+rowStart = (i/3)*3;
+columnStart = (j/3)*3;
+
+for (int a = rowStart; a < rowStart + 3; a++) {
+  for (int b = columnStart; b < columnStart + 3; b++)
+}
