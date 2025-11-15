@@ -1,13 +1,17 @@
-num of islands (graph dfs)
+1. num of islands (graph dfs)
+   TimeComplexity -> O(m*n)
+   SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout using visibility matrix to track visited cell, just flip 1 to 0 after visiting 
 all subsets (recursive backtracking)
 two numbers.  (array)
 two numbers sorted array (array)
 My Calendar 1 (interval tree)
 Check Validity of BST (tree)
 Sudoku Solver. (recursive backtracking)
-Number of Provinces (dfs)
+8. Number of Provinces (dfs)
 Sliding Window Maximum (sliding window)
 level order traversal (tree)
+   TimeComplexity -> O(n) as we are travesing each node once
+   SpaceComplexity ->O(n) as in worst case max no of elements at level can be n/2 which we are storing in Queue
 reverse stack with recursion(Stack)
 merge k sorted array (using priority queue)
 bulb right flip (greedy approach)
@@ -25,7 +29,7 @@ network delay time : (Dijkistra algortihm)
 Design inmemory file system
 serialize and deserialize n-ary tree
 Snapshot Array :- (use binary search)
-encode and decode string
+encode and decode list of strings
 Visible people of queue :- (use monotonic stack)
 searilize and deseralize tree :- use preorder traversal
 Longest palindrome substring (dynamic programming and tabulation technique)
@@ -34,5 +38,7 @@ kth largest element in stream
 meetings room (interval )
 diameter of tree (tree dfs)
 Max Area of Island (Graph dfs)
+  TimeComplexity -> O(m*n)
+  SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout using visibility matrix to track visited cell, just flip 1 to 0 after visiting 
 Disappering elements in array (cyclic sort)
 longest palindromic substring (tabulation technique using bottomsup approach)
