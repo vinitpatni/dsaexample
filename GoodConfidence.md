@@ -4,6 +4,15 @@
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
 - all powersets (recursive backtracking)
+- Compare leaves of binary tree
+     <pre markdown="2"> 
+       Approach 1 :-  Using dfs to collect all leaves of both the trees and compare leaves
+          TimeComplexity :- O(l1+l2) where l1 and l2 no of leaf nodes
+          SpaceComplexity :- O(h1+h2) + O(l1+l2) h1,h2 => heights and l1+l2 => no of leaf nodes
+      Approach 2 (With less space) :- Use iterative approach and short circuit while comparing leaves
+         TimeComplexity :- O(min(l1,l2)) where l1 and l2 no of leaf nodes
+         SpaceComplexity :- O(h1+h2) h1,h2 => heights
+     </pre>
 - two numbers.  (array)
     <pre markdown="2">  
      TimeComplexity -> O(n) 
@@ -23,6 +32,15 @@
     TimeComplexity -> O(n) As we need to traverse through each element of tree once to validate it 
     SpaceComplexity -> O(logn) Because of recursion stack mostly goes upto the depth which is equal to height of the tree which is log(n)
                       For skewed binary search tree, it can be O(n) which is not case most of the time</pre>
+- Smallest kth element in BST (tree)
+    <pre markdown="2"> 
+       Approach 1 :-  Using inorder traversal to collect all nodes and fetch kth element as result
+          TimeComplexity :- O(n) where n is not nodes
+          SpaceComplexity :- O(n) recursive calls + O(n) auxillary list to collected n elemnts;
+      Approach 2 (With less space) :- Use counter and short circuit while comparing leaves
+          TimeComplexity :- O(n) where n is not nodes
+          SpaceComplexity :- O(n) recursive calls + O(1) as we set result and exit from function once count reaches k;
+     </pre>
 - Sudoku Solver. (recursive backtracking)
 - Sliding Window Maximum (sliding window)
 - level order traversal (tree)
