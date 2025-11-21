@@ -1,9 +1,10 @@
-- num of islands (graph dfs)
+- Number of Islands (graph dfs)
      <pre markdown="2"> 
        TimeComplexity -> O(m*n)
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
-- all powersets (recursive backtracking)
+- All Powersets (recursive backtracking)
+- All Permutations (recursive backtracking)
 - Compare leaves of binary tree
      <pre markdown="2"> 
        Approach 1 :-  Using dfs to collect all leaves of both the trees and compare leaves
@@ -13,20 +14,40 @@
          TimeComplexity :- O(min(l1,l2)) where l1 and l2 no of leaf nodes
          SpaceComplexity :- O(h1+h2) h1,h2 => heights
      </pre>
-- two numbers.  (array)
+- Two numbers  (array)
     <pre markdown="2">  
      TimeComplexity -> O(n) 
      SpaceComplexity -> O(n) Using Map to store number and index mapping</pre>
-- two numbers sorted array
+- Two numbers (sorted array)
     <pre markdown="2">
     TimeComplexity -> O(n) 
     SpaceComplexity -> O(1) As no auxiallary space is needed for sorted array</pre>
+- Find All Duplicates in an Array Or (Find All Missing Numbers in an Array)
+    <pre markdown="2">  
+     Approach 1 :- Use Cyclic Sort to put elments in its expected place     
+        TimeComplexity -> O(n) 
+        SpaceComplexity -> O(1) </pre>          
+- Group Anagrams
+    <pre markdown="2"> 
+     Approach 1 :-  Use Two for each loop and compare each pair of string using anagram algo 
+        TimeComplexity :- O(n2m) for worst case where m is size of each string and n is the size of string array. 
+                            O(m+m) is cost of comparing two string of size m and we are doing it n2 times
+        SpaceComplexity :- we can use auxillary visited boolean array of size n to mark string which are already grouped
+         
+     Approach 2 (Better) :- Sort each string and store it in map with value as sorted string, Only single itr is needed 
+        TimeComplexity :- O(nmlog(m)) mlogm is needed to sort string (Arrays.sort) of size m and it is done n times
+        SpaceComplexity :- O(nm) which is used to store results </pre>
+         
 - Number of Provinces (dfs)
     <pre markdown="2">
     TimeComplexity -> O(n2) As we need to traverse through the 2d array to find connections 
     SpaceComplexity -> O(n) Because of recursion stack consist on minimum n calls and we are using boolean visited array of size n</pre>
     
 - My Calendar 1 (interval tree)
+- Longest Substring Without Repeating Characters (two pointers)
+   <pre markdown="2">
+    TimeComplexity -> O(n) As we need to scan each character of string once 
+    SpaceComplexity -> O(n) Because we are using hashset which can contain each character in worst case</pre>
 - Check Validity of BST (tree)
     <pre markdown="2">
     TimeComplexity -> O(n) As we need to traverse through each element of tree once to validate it 
