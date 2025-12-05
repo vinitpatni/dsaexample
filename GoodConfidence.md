@@ -70,7 +70,7 @@
    SpaceComplexity ->O(n) as in worst case max no of elements at level can be n/2 which we are storing in Queue</pre>
 - Bottom level order traversal (same as level order traversal but use LinkedList to add at start, which supports addFirst method)  
 - reverse stack with recursion(Stack)
-- merge m sorted array of size n 
+- merge m sorted array of size n same as merge m sorted linked list 
    <pre markdown="2"> 
        Approach 1 :- maintain index for each array and compare each element of all arrays at that index and then increment index which has lowest value
           TimeComplexity :- m * m * n where m comparisons is needed for mn elements
@@ -81,7 +81,12 @@
      </pre> 
 - bulb right flip (greedy approach)
 - serialize and deserialize n-ary tree
-- searilize and deseralize tree :- use preorder traversal
+- searilize and deseralize tree
+      <pre markdown="2"> 
+       Approach 1 :- Use Preorder traversal to store elements while serialize and Queue while deserialize 
+          TimeComplexity :- O(n) as we are dfs 
+          SpaceComplexity :- log(n) for recursion depth and queue which takes O(n) to store elements 
+     </pre>    
 daily temperature (monotonic stack)
 first non repeating number in stream (queue)
 min stack (Stack) use Single Stack
