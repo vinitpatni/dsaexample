@@ -70,8 +70,18 @@
    SpaceComplexity ->O(n) as in worst case max no of elements at level can be n/2 which we are storing in Queue</pre>
 - Bottom level order traversal (same as level order traversal but use LinkedList to add at start, which supports addFirst method)  
 - reverse stack with recursion(Stack)
-- merge k sorted array (using priority queue)
-bulb right flip (greedy approach)
+- merge m sorted array of size n 
+   <pre markdown="2"> 
+       Approach 1 :- maintain index for each array and compare each element of all arrays at that index and then increment index which has lowest value
+          TimeComplexity :- m * m * n where m comparisons is needed for mn elements
+          SpaceComplexity :- O(mn) to store results
+      Approach 2 :- Use Priority Queue of size m and just insert element in priority queue for index which got the lowest value
+          TimeComplexity :- O(log(m) * m * n) where m no of arrays of size n each
+          SpaceComplexity :-  O(mn) to store results and O(m) size for priority Queue
+     </pre> 
+- bulb right flip (greedy approach)
+- serialize and deserialize n-ary tree
+- searilize and deseralize tree :- use preorder traversal
 daily temperature (monotonic stack)
 first non repeating number in stream (queue)
 min stack (Stack) use Single Stack
@@ -88,7 +98,7 @@ serialize and deserialize n-ary tree
 Snapshot Array :- (use binary search)
 encode and decode list of strings
 Visible people of queue :- (use monotonic stack)
-searilize and deseralize tree :- use preorder traversal
+
 Longest palindrome substring (dynamic programming and tabulation technique)
 
 kth largest element in stream
