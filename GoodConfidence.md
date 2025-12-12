@@ -86,7 +86,10 @@
        Approach 1 :- Use Preorder traversal to store elements while serialize and Queue while deserialize 
           TimeComplexity :- O(n) as we are dfs 
           SpaceComplexity :- log(n) for recursion depth and queue which takes O(n) to store elements 
-     </pre>    
+     </pre>
+- Max Area of Island (Graph dfs)
+  TimeComplexity -> O(m*n)
+  SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout using visibility matrix to track visited cell, just flip 1 to 0 after visiting      
 daily temperature (monotonic stack)
 first non repeating number in stream (queue)
 min stack (Stack) use Single Stack
@@ -109,8 +112,6 @@ Longest palindrome substring (dynamic programming and tabulation technique)
 kth largest element in stream
 meetings room (interval )
 diameter of tree (tree dfs)
-- Max Area of Island (Graph dfs)
-  TimeComplexity -> O(m*n)
-  SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout using visibility matrix to track visited cell, just flip 1 to 0 after visiting 
+
 Disappering elements in array (cyclic sort)
 longest palindromic substring (tabulation technique using bottomsup approach)
