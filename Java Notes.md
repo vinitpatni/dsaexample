@@ -6,6 +6,10 @@
   <pre markdown="1"> int i = 1   //i=1;
    char ch = (char)(i + '0'); //ch = '1'
   </pre>
+- Convert Character in range (1-9) to its integer representation
+  <pre markdown="1"> char ch = '8';  
+   int i = (ch - '0'); //i = 8
+  </pre>  
 - Removing BoilerPlate code for map
 <pre markdown="1"> Map&lt;Integer,List&lt;Integer>> map = new HashMap<>();
 List<Integer> list = map.getOrDefault(k, new ArrayList<>());
@@ -15,3 +19,4 @@ map.put(k, list);
 
 <pre markdown="1"> map.computeIfAfsent(k, key -> new ArrayList<>()).add(value);
 </pre>
+- Always Use StringBuilder in place of String
