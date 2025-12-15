@@ -4,6 +4,12 @@
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
 - All Powersets (recursive backtracking)
+- daily temperature (monotonic stack)
+    <pre markdown="2"> 
+       Approach 1 :- An element can be maximum inserted 1 time and pop 1 times, size of Stack will never exceed n
+         TimeComplexity -> O(n)
+         SpaceComplexity -> O(m*n)
+     </pre>
 - All Permutations (recursive backtracking)
 - Compare leaves of binary tree
      <pre markdown="2"> 
