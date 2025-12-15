@@ -3,7 +3,12 @@
             String of length 1 is always palindrome
             String of length 2 is palidnrome if (s[0] == s[1])
             String of length n is palindrome if  S[0] == s[n-1] &&  substring(1,n-2) is palindrome
-
+- Partition Equal Subset Sum :-
+     Use 0/1 knapsack pattern for filling up the table and check whether it is possible to reach half of the target sum of given input array.
+          <pre markdown="2"> 
+       TimeComplexity -> O(m*n) where m is is size of input array and n is the target sum
+       SpaceComplexity ->O(m)  Space Optimized and use boolean 2d array
+         </pre>
 - Edit Distance
       Transfrom hor -> ro
             Cost of transforming 
