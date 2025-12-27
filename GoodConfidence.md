@@ -59,6 +59,10 @@
     TimeComplexity -> O(n) As we need to traverse through each element of tree once to validate it 
     SpaceComplexity -> O(logn) Because of recursion stack mostly goes upto the depth which is equal to height of the tree which is log(n)
                       For skewed binary search tree, it can be O(n) which is not case most of the time</pre>
+- Kth Largest Element in an Array
+    <pre markdown="2">
+    TimeComplexity -> O(nlog(k)) Use priority queue and maintain height of k
+    SpaceComplexity -> O(k) As height of queue never exceeds k</pre>                      
 - Smallest kth element in BST (tree)
     <pre markdown="2"> 
        Approach 1 :-  Using inorder traversal to collect all nodes and fetch kth element as result
