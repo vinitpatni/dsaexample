@@ -8,4 +8,9 @@
          TimeComplexity :- O(n)  Monotonic stack has O(n) because size of stack never exceeds n 
           SpaceComplexity :- O(n) Auxillary space for storing results
      </pre>
+- Maximal Rectangle
+     <pre markdown="2"> 
+           Use Monotonic stack to solve problem of pattern (find first next smaller element, first prev small element)
+           Solve Largest Rectangle in Histogram problem, based on which solution of this problem is build up
+     </pre>
  
