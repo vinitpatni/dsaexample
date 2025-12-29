@@ -13,4 +13,10 @@
            Use Monotonic stack to solve problem of pattern (find first next smaller element, first prev small element)
            Solve Largest Rectangle in Histogram problem, based on which solution of this problem is build up
      </pre>
- 
+- Binary Cameras
+      <pre markdown="2"> 
+           Do DFS and apply greedy approach
+              - install camera if any of the children is not monitored
+              - if any of the children have camera, current node is considered monitored 
+              - if both of the children are monitored, then return 0 as current node is not monitored
+     </pre>
