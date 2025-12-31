@@ -11,6 +11,13 @@
          SpaceComplexity -> O(m*n)
      </pre>
 - All Permutations (recursive backtracking)
+- Burning Tree  (BFS to find shortest path)
+    <pre markdown="2"> 
+       Approach 1 :-  Using dfs to create adjancecyList of tree and bfs to find shortest path from one node to all the nodes of tree
+          TimeComplexity :- O(n)
+          SpaceComplexity :- O(n) + O(log(n)), auxillary map to store adjancencyLIst, recursive stack call for dfs 
+     </pre>
+- Rotting Oranges (Same as Burning Tree, only 2d array is present instead of Tree)     
 - Compare leaves of binary tree
      <pre markdown="2"> 
        Approach 1 :-  Using dfs to collect all leaves of both the trees and compare leaves
