@@ -106,7 +106,7 @@
      </pre>
 - Parallel courses (topological sorting with level order traversal technique)
       <pre markdown="2"> 
-       Approach 1 :- Use Preorder traversal to store elements while serialize and Queue while deserialize 
+       Approach :- Do topological Sorting using adjacency list and indegree map 
           TimeComplexity :- O(V + E)
           SpaceComplexity :- O(V) not considering adjanceny list space and auxillary space for queue (which can be o(V) in worse case if many nodes are with incoming degree as zero)
      </pre>
