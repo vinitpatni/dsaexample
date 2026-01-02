@@ -104,6 +104,12 @@
           TimeComplexity :- O(n) as we are dfs 
           SpaceComplexity :- log(n) for recursion depth and queue which takes O(n) to store elements 
      </pre>
+- Parallel courses (topological sorting with level order traversal technique)
+      <pre markdown="2"> 
+       Approach 1 :- Use Preorder traversal to store elements while serialize and Queue while deserialize 
+          TimeComplexity :- O(V + E)
+          SpaceComplexity :- O(V) not considering adjanceny list space and auxillary space for queue (which can be o(V) in worse case if many nodes are with incoming degree as zero)
+     </pre>
 - Max Area of Island (Graph dfs)
   TimeComplexity -> O(m*n)
   SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout using visibility matrix to track visited cell, just flip 1 to 0 after visiting      
