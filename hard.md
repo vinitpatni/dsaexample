@@ -20,3 +20,9 @@
               - if any of the children have camera, current node is considered monitored 
               - if both of the children are monitored, then return 0 as current node is not monitored
      </pre>
+- Binary Tree Maximum Path Sum
+   <pre markdown="2"> 
+           Do DFS and consider left child and right child computation
+             - if number is negative then adding anything to it reduces the overall value and if number is negative then return zero to its parent
+             hence if node.val + Math.max(left, right) is negative then return zero to its parent.
+     </pre>
