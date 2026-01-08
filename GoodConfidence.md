@@ -10,6 +10,13 @@
          TimeComplexity -> O(n)
          SpaceComplexity -> O(m*n)
      </pre>
+- Prefix Tree, search and prefix search support (Trie)
+      <pre markdown="2"> 
+          - Add, Search and Search Prefix
+            TimeComplexity -> O(m) where m is size of each string
+            SpaceComplexity -> O(m*n) where m is avg size of each string and n is total no of strings
+           
+     </pre>     
 - All Permutations (recursive backtracking)
 - Burning Tree  (BFS to find shortest path)
     <pre markdown="2"> 
