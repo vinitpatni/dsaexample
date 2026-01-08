@@ -10,7 +10,7 @@
          TimeComplexity -> O(n)
          SpaceComplexity -> O(m*n)
      </pre>
-- Prefix Tree, search and prefix search support (Trie)
+- Prefix Tree (Trie)
       <pre markdown="2"> 
           - Add, Search and Search Prefix
             TimeComplexity -> O(m) where m is size of each string
