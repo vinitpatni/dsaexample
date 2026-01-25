@@ -26,3 +26,23 @@
              - if number is negative then adding anything to it reduces the overall value and if number is negative then return zero to its parent
              hence if node.val + Math.max(left, right) is negative then return zero to its parent.
      </pre>
+- Palindrome pairs
+     <pre markdown="2"> 
+          For given string, you can find all its possible palindrome using following approach :-
+           Repeat below process for each possible partition of the string
+            1. First split into parts , left and right
+            2. Check if left is palindrome, if yes then generate palindrome of right part of string
+            3. If you append palindrome generated in above step to the left side of above string, you will possible palindrome
+           Repeat above process for right part also :-
+            1. First split into parts , left and right
+            2. Check if right is palindrome, if yes then generate palindrome of left part of string
+            3. If you append palindrome generated in above step to the right side of above string, you will possible palindrome
+          TimeComplexity :- O(n*k) where k is size of each word.   
+          SpaceComplexity :- O(n) Auxillary space for storing words in to hashmap 
+     </pre>
+- Search AutoComplete System
+  <pre markdown="2"> 
+          For trie, we need to maintain list of result on the prefix node itself, In this way we can avoid computation every time
+     </pre>
+
+     
