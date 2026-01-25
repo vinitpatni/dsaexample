@@ -143,7 +143,6 @@ Snapshot Array :- (use binary search)
 encode and decode list of strings
 Visible people of queue :- (use monotonic stack)
 
-Longest palindrome substring (dynamic programming and tabulation technique)
 
 kth largest element in stream
 meetings room (interval )
