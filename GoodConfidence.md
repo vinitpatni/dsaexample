@@ -105,6 +105,12 @@
      </pre> 
 - bulb right flip (greedy approach)
 - serialize and deserialize n-ary tree
+- Longest palindrome substring (same as palidromic substrings)
+  <pre markdown="2"> 
+       Approach 1 :- Use dynamic programming and create dp table dp[i][j].Mark dp[i][j] as palidnrome if character at index i == character at index j && dp[i+1][j-1] is palindrome
+          TimeComplexity :- O(n*n) as we are populating the dp table
+          SpaceComplexity :- O(n*n) for storing the result of computation
+  </pre>
 - searilize and deseralize tree
       <pre markdown="2"> 
        Approach 1 :- Use Preorder traversal to store elements while serialize and Queue while deserialize 
