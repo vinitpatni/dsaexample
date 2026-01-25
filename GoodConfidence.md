@@ -4,6 +4,9 @@
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
 - All Powersets (recursive backtracking)
+     <pre markdown="2"> 
+       TimeComplexity -> O(2 pow n)
+       SpaceComplexity ->O(n) Recursive backtracking call would be n equal to no of elements in array</pre>
 - daily temperature (monotonic stack)
     <pre markdown="2"> 
        Approach 1 :- An element can be maximum inserted 1 time and pop 1 times, size of Stack will never exceed n
@@ -18,6 +21,11 @@
            
      </pre>     
 - All Permutations (recursive backtracking)
+- Palindrome Partitioning (recursive backtracking)
+    <pre markdown="2"> 
+            TimeComplexity -> O(n * 2 pow n) finding all substring of string of size n is 2 pow n and checking for each string whether it is palindrome
+            SpaceComplexity -> O(n) depth of recursion is equal to size of string
+   </pre>     
 - Burning Tree  (BFS to find shortest path)
     <pre markdown="2"> 
        Approach 1 :-  Using dfs to create adjancecyList of tree and bfs to find shortest path from one node to all the nodes of tree
