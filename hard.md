@@ -8,6 +8,15 @@
          TimeComplexity :- O(n)  Monotonic stack has O(n) because size of stack never exceeds n 
           SpaceComplexity :- O(n) Auxillary space for storing results
      </pre>
+ - Find Median of Data Stream
+        
+      <pre markdown="2"> 
+        Approach 1 :- Maintain maxHeap and minHeap as elements are added to the stream. if difference in size of two pq is greater than 1. then rebalance
+        needs to be done across two heaps
+            TimeComplexity (add(int num)) ->  O(log(n)) is cost of removing and adding element to the priority que
+                           (getMedian() -> O(1) as depending on que sizes we can calculate median
+            SpaceComplexity (Of O(n)) as we are maintaining all the elements of stream
+     </pre>      
 - Maximal Rectangle
      <pre markdown="2"> 
            Use Monotonic stack to solve problem of pattern (find first next smaller element, first prev small element)
