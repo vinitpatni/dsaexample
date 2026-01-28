@@ -5,15 +5,7 @@
             String of length 2 is palidnrome if (s[0] == s[1])
             String of length n is palindrome if  S[0] == s[n-1] &&  substring(1,n-2) is palindrome
      </pre>        
-- Find Median of Data Stream
-        
-      <pre markdown="2"> 
-        Approach 1 :- Maintain maxHeap and minHeap as elements are added to the stream. if difference in size of two pq is greater than 1. then rebalance
-        needs to be done across two heaps
-            TimeComplexity (add(int num)) ->  O(log(n)) is cost of removing and adding element to the priority que
-                           (getMedian() -> O(1) as depending on que sizes we can calculate median
-            SpaceComplexity (Of O(n)) as we are maintaining all the elements of stream
-     </pre>  
+
 - Decode ways
       <pre markdown="2"> 
       Use Bottomsup approach for solving
