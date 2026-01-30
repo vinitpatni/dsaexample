@@ -3,6 +3,12 @@
        TimeComplexity -> O(m*n)
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
+- Fair Distribution of Cookies (backtracking and pruning)
+    <pre markdown="2"> 
+       Apprach 1 :- We are doing backtracking doing enumeration for each cookie bag, can pruning branch if evaluated max is greater than
+                    current answer
+       TimeComplexity -> O(k pow n/factorial(n))
+       SpaceComplexity ->O(n+k) Recursive backtracking call would be n equal to no of elements in array</pre>
 - All Powersets (recursive backtracking)
      <pre markdown="2"> 
        TimeComplexity -> O(2 pow n)
@@ -112,6 +118,12 @@
           SpaceComplexity :-  O(mn) to store results and O(m) size for priority Queue
      </pre> 
 - bulb right flip (greedy approach)
+- minimize difference between min and max of high scores (greedy approach)
+   <pre markdown="2"> 
+       Approach 1 :- Sort it in increasing order as, Any skipping only increases the range
+          TimeComplexity :- O(k*nlogn) as we are populating the dp table
+          SpaceComplexity :- O(n) for storing the result of computation
+  </pre>
 - serialize and deserialize n-ary tree
 - Longest palindrome substring (same as palidromic substrings)
   <pre markdown="2"> 
