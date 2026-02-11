@@ -106,7 +106,8 @@
    <pre markdown="2">
    TimeComplexity -> O(n) as we are travesing each node once
    SpaceComplexity ->O(n) as in worst case max no of elements at level can be n/2 which we are storing in Queue</pre>
-- Bottom level order traversal (same as level order traversal but use LinkedList to add at start, which supports addFirst method)  
+- Bottom level order traversal (same as level order traversal but use LinkedList to add at start, which supports addFirst method)
+- Zigzag level order traversal (same as level order traversal but use LinkedList (addFirst method) at odd level to reverse the order of elements)
 - reverse stack with recursion(Stack)
 - merge m sorted array of size n same as merge m sorted linked list 
    <pre markdown="2"> 
