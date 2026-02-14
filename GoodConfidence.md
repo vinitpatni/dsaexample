@@ -56,6 +56,19 @@
     <pre markdown="2">
     TimeComplexity -> O(n) 
     SpaceComplexity -> O(1) As no auxiallary space is needed for sorted array</pre>
+- Arrange -ve and +ve numbers in the array (maintain their order)
+   <pre markdown="2"> 
+     Approach 1 :-  Use Two for each loop and compare each pair of string using anagram algo 
+        TimeComplexity :- Create separate list of negative and positive number which has complexity of O(n) and combine them to get final result
+                           
+        SpaceComplexity :- O(n)
+         
+     Approach 2 (Better) :- Use Modified Merge Sort. 
+          How to combine  (-2,2,1) (-3,-4,1), 
+            - swap (-2,(1,2)) and ((-4,-3),1)
+            - reverse from 1 to 4 index which should be (-2, -3, -4, 1, 2,1) which is expectation
+        TimeComplexity :- O(nlogn) 
+        SpaceComplexity :- O(logn) as we are doing log(n) calls which is depth of merge tree </pre>
 - Find All Duplicates in an Array Or (Find All Missing Numbers in an Array)
     <pre markdown="2">  
      Approach 1 :- Use Cyclic Sort to put elments in its expected place     
