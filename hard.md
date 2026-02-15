@@ -1,3 +1,10 @@
+- Longest Palindrome Subsequence
+      <pre markdown="2"> 
+        We will fill the dp 2 d array of size n*n. Base case
+            Fro size 1 it will be always 1 as any string of size 1 is always palindrome
+            For dp [i,j] = if (s.charAt(i) == s.charAt(j) then dp[i,j] = 2 + dp[i+1][j-1]
+                     else if (s.charAt(i) != s.charAt(j) then dp[i,j] = Max (dp[i-1][j]), dp[i][j-1])
+     </pre>
 - Largest Rectangle in Histogram
      <pre markdown="2"> 
        For each element in the array, find next small element and prev small element 
