@@ -3,7 +3,11 @@
        TimeComplexity -> O(m*n)
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
-- Segregate 0 and 1 in single pass using O(n) time complexity and O(1) space complexity       
+- Segregate 0 and 1 in single pass using O(n) time complexity and O(1) space complexity
+- Count inversions (Use merge sort to solve the problem)
+       <pre markdown="2"> 
+       TimeComplexity -> O(nlogn) as we are doing merge sort which has depth of log(n) and n comparisons per level
+       SpaceComplexity ->O(n) </pre>
 - Fair Distribution of Cookies (backtracking and pruning)
     <pre markdown="2"> 
        Apprach 1 :- We are doing backtracking doing enumeration for each cookie bag, can pruning branch if evaluated max is greater than
