@@ -5,6 +5,7 @@
             For dp [i,j] = if (s.charAt(i) == s.charAt(j) then dp[i,j] = 2 + dp[i+1][j-1]
                      else if (s.charAt(i) != s.charAt(j) then dp[i,j] = Max (dp[i-1][j]), dp[i][j-1])
      </pre>
+- k-tolerant palindrome (Find size of longest palidnrome subsequence and subtract it from length of string)     
 - Largest Rectangle in Histogram
      <pre markdown="2"> 
        For each element in the array, find next small element and prev small element 
