@@ -10,7 +10,16 @@ Lower Bound of 4 = 8 (8 is index)
 Lower Bound of 10 = 11 (11 is index)
 Lower Bound of 13 = 12 (size of array)
 
+Upper Bound Trick 
+Upper Bound is applicable for sorted array only. For a number 'target' upper bound is defined as the lowest index 'i' in the array for which is x[i] > target
 
+For example lets consider the array :- [1,1,1,2,2,2,3,3,7,9,9,10]
+
+Upper Bound of 2 = 6 (6 is index)
+Upper Bound of 1 = 3 (3 is index)
+Upper Bound of 4 = 8 (8 is index)
+Upper Bound of 10 = 12 (size of array)
+Upper Bound of 13 = 12 (size of array)
 
 Floor and Celing on TreeMap in java
 TreeMap map = new TreeMap();
