@@ -16,6 +16,15 @@
           TimeComplexity :- O(n)
           SpaceComplexity :- O(n) because space taken by recursion depth which is n
       </pre>
+   - Add 1 to LinkedList
+      <pre markdown="2"> 
+       Approach 1 :-  Use recursion to access each element of LL
+          TimeComplexity :- O(n)
+          SpaceComplexity :- O(n) auxillary space used by recursion
+      Approach 2  :- reverse ll iteratively and add 1 to first node of ll and propagate carry, In the end again reverse given ll to return head pointer
+          TimeComplexity :- O(n)
+          SpaceComplexity :- O(1) because of iterative approach
+      </pre>    
   - Merge two sorted list (Use dummy node and two pointer approach)
   - Check Palindrome LinkedList
       <pre markdown="2"> 
