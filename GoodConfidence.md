@@ -8,6 +8,14 @@
        <pre markdown="2"> 
        TimeComplexity -> O(nlogn) as we are doing merge sort which has depth of log(n) and n comparisons per level
        SpaceComplexity ->O(n) </pre>
+- Binary Substrings
+- Max Consecutive Bit (II)
+  You are given a binary array arr[], containing only 0s and 1s. You are allowed to flip at most k's 0 to 1.
+      <pre markdown="2">
+       Apprach 1 :- Expand the window till arr[right] == 1 && (arr[left] == 0 && k > 0), also capture result,
+                    Start shrinking the window and increment left till k > 0 is found
+       TimeComplexity -> O(n)
+       SpaceComplexity ->O(1) </pre>      
 - Fair Distribution of Cookies (backtracking and pruning)
     <pre markdown="2"> 
        Apprach 1 :- We are doing backtracking doing enumeration for each cookie bag, can pruning branch if evaluated max is greater than
