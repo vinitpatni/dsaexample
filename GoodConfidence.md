@@ -4,12 +4,17 @@
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
 - Segregate 0 and 1 in single pass using O(n) time complexity and O(1) space complexity
-- Count inversions (Use merge sort to solve the problem)
+- Count inversions (Use modified merge sort to solve the problem)
        <pre markdown="2"> 
        TimeComplexity -> O(nlogn) as we are doing merge sort which has depth of log(n) and n comparisons per level
        SpaceComplexity ->O(n) </pre>
+- Find Fair Pairs (lower <= nums[i] + nums[j] <= upper)
+       <pre markdown="2"> 
+       Approach 1:- Find sort the array and then found lower bound and upper bound of each element for solving this problem 
+       TimeComplexity -> O(nlogn) as we are doing merge sort which has depth of log(n) and n comparisons per level
+       SpaceComplexity ->O(1) </pre>     
 - Binary Substrings
-- Max Consecutive Bit (II)
+- Max Consecutive Bit (II) (Variable Length Sliding Window)
   You are given a binary array arr[], containing only 0s and 1s. You are allowed to flip at most k's 0 to 1.
       <pre markdown="2">
        Apprach 1 :- Expand the window till arr[right] == 1 && (arr[left] == 0 && k > 0), also capture result,
