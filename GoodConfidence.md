@@ -12,7 +12,12 @@
        <pre markdown="2"> 
        Approach 1:- Find sort the array and then found lower bound and upper bound of each element for solving this problem 
        TimeComplexity -> O(nlogn) as we are doing merge sort which has depth of log(n) and n comparisons per level
-       SpaceComplexity ->O(1) </pre>     
+       SpaceComplexity ->O(1) </pre>
+- Remove duplicates from sorted array
+       <pre markdown="2"> 
+       Approach 1:- Use two pointers and do it in constant space without using hashset
+       TimeComplexity -> O(n) as we are iterating through array
+       SpaceComplexity ->O(1) </pre>      
 - Binary Substrings
 - Max Consecutive Bit (II) (Variable Length Sliding Window)
   You are given a binary array arr[], containing only 0s and 1s. You are allowed to flip at most k's 0 to 1.
