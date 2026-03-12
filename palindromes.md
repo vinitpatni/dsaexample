@@ -1,4 +1,10 @@
 
+- Given a string s, return true if the s can be palindrome after deleting at most one character from it
+     <pre markdown="2"> 
+       Approach 1 :- Find Longest Palindrome Subsequence and subtract it from the length of string
+                  if difference is less than 1 then true otherwise false
+       Approach 2 (Better approach) :- if left and right are not matching, then either delete left character or delete right character and recursively keep on checking  
+     </pre>
 - Check if characters of a given string can be rearranged to form a palindrome
       <pre markdown="2"> 
        Approach 1 :-  Get frequency of each character and check if characters of odd frequency is greater than 1
