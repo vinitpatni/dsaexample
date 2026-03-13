@@ -1,11 +1,3 @@
-- Longest Plaindrome SubString :-
-     <pre markdown="2"> 
-      Use Tabulation Technique and Bottomsup Approach for solving it.
-            String of length 1 is always palindrome
-            String of length 2 is palidnrome if (s[0] == s[1])
-            String of length n is palindrome if  S[0] == s[n-1] &&  substring(1,n-2) is palindrome
-     </pre>        
-
 - Decode ways
       <pre markdown="2"> 
       Use Bottomsup approach for solving
