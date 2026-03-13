@@ -1,3 +1,13 @@
+- Longest Increasing Subsequence
+   <pre markdown="2"> 
+        Approach 1 :-  Find all subset of given array and filter array which is strictly increasing
+        TimeComplexity :- O(2 pow n) 
+        SpaceComplexity :- O(n) :- Recursion depth of n
+      
+        Approach 2  :-  Bottoms up approach of Dynamic Programming
+       TimeComplexity :- O(n2) 
+       SpaceComplexity :- O(n) 
+     </pre>
 - Decode ways
       <pre markdown="2"> 
       Use Bottomsup approach for solving
