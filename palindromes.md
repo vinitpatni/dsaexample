@@ -19,9 +19,17 @@
         // How to check if single bit is set in binary number, if (no & no - 1) == 0 //means single bit is set
           return bitVector & bitVector - 1;
      </pre>
+- Longest Palindrome SubString :-
+     <pre markdown="2"> 
+      (Dynamic Programming) Use Tabulation Technique and Bottomsup Approach for solving it.
+            String of length 1 is always palindrome
+            String of length 2 is palidnrome if (s[0] == s[1])
+            String of length n is palindrome if  S[0] == s[n-1] &&  substring(1,n-2) is palindrome
+     </pre>        
+     
 - Longest Palindrome Subsequence
       <pre markdown="2"> 
-        We will fill the dp 2 d array of size n*n. Base case
+        (Dynamic Programming) We will fill the dp 2 d array of size n*n. Base case
             Fro size 1 it will be always 1 as any string of size 1 is always palindrome
             For dp [i,j] = if (s.charAt(i) == s.charAt(j) then dp[i,j] = 2 + dp[i+1][j-1]
             else if (s.charAt(i) != s.charAt(j) then dp[i,j] = Max (dp[i-1][j]), dp[i][j-1])
