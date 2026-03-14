@@ -13,6 +13,11 @@
        Approach 1:- Find sort the array and then found lower bound and upper bound of each element for solving this problem 
        TimeComplexity -> O(nlogn) as we are doing merge sort which has depth of log(n) and n comparisons per level
        SpaceComplexity ->O(1) </pre>
+- Contiguous Array ( the maximum length of a contiguous subarray with an equal number of 0 and 1.)
+           <pre markdown="2"> 
+       Approach 1:- Find prefixSum of each element and use two sum technique and hashmap to find two indexes which has equal prefixSum
+       TimeComplexity -> O(n) 
+       SpaceComplexity ->O(n) </pre>  
 - Remove duplicates from sorted array
        <pre markdown="2"> 
        Approach 1:- Use two pointers and do it in constant space without using hashset
