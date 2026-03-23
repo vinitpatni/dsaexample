@@ -1,3 +1,10 @@
+- Longest Valid paranthesis
+     <pre markdown="2"> 
+       1. Find list of invalid indices (any opening or closing parenthesis for which corresponding element is not present).
+       For example in string ")(())(" [0,5] is invalid index   
+       2. Add -1 and n (length of string) to the list of indices in array list of invalid indices
+       3. Find difference between consecutive indices of arraylist, Maximum difference will be answer
+      </pre>
 - Largest Rectangle in Histogram
      <pre markdown="2"> 
        For each element in the array, find next small element and prev small element 
