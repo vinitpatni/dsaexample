@@ -1,3 +1,9 @@
+- encode and decode list of strings
+    <pre markdown="2"> Use len# as separate for input for ex (abc,##) encoding would be "3#abc2###"
+         While decoding just scan till # is not found, then extract substring based on the length then start again from next index
+       TimeComplexity -> O(n) 
+       SpaceComplexity ->O(1)
+    </pre>
 - Number of Islands (graph dfs)
      <pre markdown="2"> 
        TimeComplexity -> O(m*n)
@@ -7,7 +13,7 @@
         <pre markdown="2">
        Approach 1:- 
        While Iterating each element check if (k-(element % k)) exists in frequency array. If so then increment the counter
-       Also update the (element % k) in frequency array of size k
+       Also update the index determined by (element % k) in frequency array of size k
        TimeComplexity -> O(n)
        SpaceComplexity ->O(k)</pre> 
 - Segregate 0 and 1 in single pass using O(n) time complexity and O(1) space complexity
@@ -197,8 +203,8 @@
 - Max Area of Island (Graph dfs)
   TimeComplexity -> O(m*n)
   SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout using visibility matrix to track visited cell, just flip 1 to 0 after visiting      
-daily temperature (monotonic stack)
-first non repeating number in stream (queue)
+
+- first non repeating number in stream (queue)
 min stack (Stack) use Single Stack
 implement queue using two stack
 peak in mountain array (using binary search)
@@ -211,7 +217,7 @@ network delay time : (Dijkistra algortihm)
 Design inmemory file system
 serialize and deserialize n-ary tree
 Snapshot Array :- (use binary search)
-encode and decode list of strings
+
 Visible people of queue :- (use monotonic stack)
 
 
