@@ -9,6 +9,12 @@
        TimeComplexity -> O(m*n)
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
+- Number of Distinct Islands (same as previous problem with small difference)
+     <pre markdown="2"> 
+       To check in similiarity of shape of two islands in 2d array we need to normalize them wrt first coordinate of
+       island. After normalization if all coordinates are same then two islands are considered same
+       TimeComplexity -> O(m*n)
+       SpaceComplexity ->O(m*n)</pre       
 - pairs of numbers divisible by k
         <pre markdown="2">
        Approach 1:- 
