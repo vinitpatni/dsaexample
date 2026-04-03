@@ -3,6 +3,13 @@
        TimeComplexity -> O(m*n)
        SpaceComplexity ->O(m*n) in the worst case due to the recursion stack but auxiallary space can be O(1) wtihout 
        using visibility matrix to track visited cell, just flip 1 to 0 after visiting</pre>
+- pairs of numbers divisible by k
+        <pre markdown="2">
+       Approach 1:- 
+       While Iterating each element check if (k-(element % k)) exists in frequency array. If so then increment the counter
+       Also update the (element % k) in frequency array of size k
+       TimeComplexity -> O(n)
+       SpaceComplexity ->O(k)</pre> 
 - Segregate 0 and 1 in single pass using O(n) time complexity and O(1) space complexity
 - Count inversions (Use modified merge sort to solve the problem)
        <pre markdown="2"> 
