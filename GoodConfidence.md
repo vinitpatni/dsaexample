@@ -152,7 +152,11 @@
 - Kth Largest Element in an Array
     <pre markdown="2">
     TimeComplexity -> O(nlog(k)) Use priority queue and maintain height of k
-    SpaceComplexity -> O(k) As height of queue never exceeds k</pre>                      
+    SpaceComplexity -> O(k) As height of queue never exceeds k</pre>
+- Top K frequent elments in array
+    <pre markdown="2">
+    TimeComplexity -> O(n) + O(nlog(k)) Use priority queue and maintain height of k
+    SpaceComplexity -> O(n) + O(k), Using hashmap to maintain frequency of each element and As height of queue never exceeds k</pre>
 - Smallest kth element in BST (tree)
     <pre markdown="2"> 
        Approach 1 :-  Using inorder traversal to collect all nodes and fetch kth element as result
