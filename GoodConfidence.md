@@ -1,9 +1,37 @@
+- Minimum Window substring (Sliding Window)
+    <pre markdown="2">  Keep on extend the right window till it does not contain all the characters of given string (count = 0)
+       Once given window have all characters, start shrinking it from left side till the condition is satisfied i.e. count = 0
+        
+        while (right < n) {
+            char chEnd = s.charAt(right++);
+            if(map.containsKey(chEnd)) {
+                  map.put(chEnd, map.get(chEnd) - 1);
+                  if (map.get(chEnd) == 0)
+                      count--;    
+            }
+            if (count > 0)
+              continue;
+            //as count is 0, start shaving off characters from left till count = 0
+            while(count == 0) {
+               char chStart = s.charAt(left++);
+               if (map.containsKey(chStart)) {
+                    map.put(chStart, map.get(chEnd) + 1);
+                    if (map.get(chEnd) > 0)
+                      count++;
+               }
+            }
+            //capture result based on left-1 and right
+        }
+       TimeComplexity -> O(n + m) 
+       SpaceComplexity ->O(m)
+    </pre>
 - encode and decode list of strings
     <pre markdown="2"> Use len# as separate for input for ex (abc,##) encoding would be "3#abc2###"
          While decoding just scan till # is not found, then extract substring based on the length then start again from next index
        TimeComplexity -> O(n) 
        SpaceComplexity ->O(1)
     </pre>
+    
 - Number of Islands (graph dfs)
      <pre markdown="2"> 
        TimeComplexity -> O(m*n)
