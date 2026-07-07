@@ -123,11 +123,11 @@
          TimeComplexity :- O(min(l1,l2)) where l1 and l2 no of leaf nodes
          SpaceComplexity :- O(h1+h2) h1,h2 => heights
      </pre>
-- Two numbers  (array)
+- Two sum  (array)
     <pre markdown="2">  
      TimeComplexity -> O(n) 
      SpaceComplexity -> O(n) Using Map to store number and index mapping</pre>
-- Two numbers (sorted array)
+- Two sum (sorted array)
     <pre markdown="2">
     TimeComplexity -> O(n) 
     SpaceComplexity -> O(1) As no auxiallary space is needed for sorted array</pre>
