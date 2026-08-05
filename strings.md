@@ -20,6 +20,11 @@
             }
         }  
    </pre>
+-  Longest Subarray With Equal Number of 0s and 1s
+     <pre markdown = "2"> 
+     - Replace all 0 with -1
+     - If sum is same at two indices that means equal number of 1 and 0 exists between those two indices. Capture the result   
+   </pre>   
 -  Encode and Decode String (contain special characters)
       <pre markdown="2"> 
         Use size of string followed by # as delimiter 
