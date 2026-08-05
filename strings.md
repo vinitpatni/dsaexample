@@ -1,3 +1,12 @@
+-Minimum number of flips to make binary string alternating 
+   <pre markdown = "2"> 
+     - Use sliding window technique and double the size of string
+     - First calculate once for first window (0 to n-1) zeroMin and oneMin
+     - We don't need to do recalculation for subseqeunt window like (1 to n), (2 to n+1)
+       Just compare with the expected one using inclusion and exclusion character and expected value of indices for 
+       both combination (010..) and (101..) and edit the zeroMin and oneMin variable at each step
+     - Capture the smallest value
+   </pre>
 - Time need to rearrange binary string
    
    <pre markdown = "2"> 
