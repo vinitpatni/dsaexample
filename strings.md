@@ -1,3 +1,8 @@
+- CountBinary Strings in O(n) (Equal number of 0 and 1 and they should be consecutive)
+     <pre markdown = "2"> 
+     - Initialize prev=0 and curr=1. Start from index i=1 and increment current till char at i == i-1
+     - if i != i-1 then capture the result reset prev and curr   
+   </pre>
 -Minimum number of flips to make binary string alternating 
    <pre markdown = "2"> 
      - Use sliding window technique and double the size of string
